@@ -1,6 +1,8 @@
+package com.club;
+
 public class Main {
     public static void main(String[] args) {
-        Cars[] cars = new Cars[] {
+        Car[] cars = new Car[] {
                 CarFactory.createBMW(),
                 CarFactory.createMercedes(),
                 CarFactory.createLada(),
@@ -8,7 +10,7 @@ public class Main {
 
         };
         System.out.println("Цикл FOR");
-        System.out.println("BMW");
+        System.out.println("com.club.BMW");
         for (int i = 0; i < cars.length; i++) {
             cars[i].accelerate();
             System.out.println("Цена: " + cars[i].getPrice());

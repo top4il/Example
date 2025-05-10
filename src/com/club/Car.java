@@ -1,7 +1,9 @@
-public interface Cars {
+package com.club;
+
+public interface Car {
     void accelerate();
     void brake();
-    double getPrice();
+    int getPrice();
     int getMaxSpeed();
     boolean isForeign();
 }

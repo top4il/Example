@@ -1,14 +1,16 @@
-public class Moskvich implements Cars{
+package com.club;
+
+public class Moskvich implements Car {
     @Override
     public void accelerate() {
-        System.out.println("Moskvich разгоняется за 14 сек до 100");
+        System.out.println("com.club.Moskvich разгоняется за 14 сек до 100");
     }
     @Override
     public void brake() {
-        System.out.println("Moskvich тормозит со 100 до 0 за 11 сек");
+        System.out.println("com.club.Moskvich тормозит со 100 до 0 за 11 сек");
     }
     @Override
-    public double getPrice() {
+    public int getPrice() {
         return 12000;
     }
     @Override
